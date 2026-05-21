@@ -39,8 +39,11 @@ pip install -r demo/requirements.txt
 python demo/demo.py --input demo/samples/label_1.png --output result.png
 ```
 
-Before running the demo, download `generator.pth` from the repository Release
-and place it at:
+Before running the demo, download `generator.pth` from the repository Release:
+
+https://github.com/byluca/lascaro-bellani-pix2pix-facades/releases/tag/v1.0-model
+
+Place it at:
 
 ```text
 demo/models/generator.pth

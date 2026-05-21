@@ -20,8 +20,11 @@ samples/label_3.png
 ```
 
 `models/generator.pth` is distributed as a GitHub Release asset because it is
-larger than GitHub's normal 100 MB file limit. Download it from the repository
-Release and place it in `models/generator.pth` before running inference.
+larger than GitHub's normal 100 MB file limit. Download it from:
+
+https://github.com/byluca/lascaro-bellani-pix2pix-facades/releases/tag/v1.0-model
+
+Then place it in `models/generator.pth` before running inference.
 
 ## Installation
 
