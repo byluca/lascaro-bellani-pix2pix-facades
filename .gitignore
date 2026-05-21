@@ -1,0 +1,16 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+
+.venv/
+venv/
+
+facades/
+facades.zip
+project_outputs/
+project_outputs.zip
+
+demo/result.png
+result.png
+demo/models/generator.pth
