@@ -87,7 +87,8 @@ def load_generator(weights_path, device):
     state = torch.load(weights_path, map_location=device)
     state = {k: v.float() if v.is_floating_point() else v for k, v in state.items()}
     model.load_state_dict(state)
-    model.eval()
+    # Pix2Pix keeps dropout active at inference time as a stochastic noise source.
+    model.train()
     return model
 
 
